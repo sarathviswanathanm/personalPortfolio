@@ -6,6 +6,8 @@ import Instagram from "../../img/instagram.png";
 import StyleContext from "../../Context/StyleContext";
 import Pulse from "react-reveal/Pulse";
 import Fade from "react-reveal/Fade";
+import resumePdf from "../../Sarath Viswanathan M.pdf";
+import sarath from "../../img/Sarath_png.png";
 
 import "./Intro.css";
 
@@ -13,7 +15,7 @@ const Intro = () => {
 	const { isDark } = useContext(StyleContext);
 	return (
 		<Fade bottom duration={1000} distance="40px">
-			<div className="intro">
+			<div className="intro" id="home">
 				<div className="i-left">
 					<div
 						className={`${isDark ? "lightColorText" : "darkColorText"} i-name`}
@@ -34,17 +36,36 @@ const Intro = () => {
 
 					<div className="buttons">
 						<button className="button i-button">Contact Me</button>
-						<button className="button i-button">See Resume</button>
+						<button
+							className="button i-button"
+							onClick={() => {
+								window.open(resumePdf);
+							}}
+						>
+							See Resume
+						</button>
 					</div>
 
 					<div className="i-icons">
-						<a href="https://github.com/sarathviswanathanm">
+						<a
+							href="https://github.com/sarathviswanathanm"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<img src={Github} alt="" />
 						</a>
-						<a href="https://www.linkedin.com/in/sarath-viswanathan-371517141/">
+						<a
+							href="https://www.linkedin.com/in/sarath-viswanathan-371517141/"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<img src={LinkedIn} alt="" />
 						</a>
-						<a href="https://www.instagram.com/sarath_mv/?hl=en">
+						<a
+							href="https://www.instagram.com/sarath_mv/?hl=en"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<img src={Instagram} alt="" />
 						</a>
 					</div>
@@ -54,11 +75,7 @@ const Intro = () => {
 					<Pulse>
 						<div className="myPhotoDiv">
 							<div className="photo">
-								<img
-									src="https://ik.imagekit.io/5yc2yhl2a/portfolio/Sarath_png_WrD6wbYvF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655255448758"
-									alt=""
-									className="me"
-								/>
+								<img src={sarath} alt="" className="me" />
 							</div>
 						</div>
 					</Pulse>

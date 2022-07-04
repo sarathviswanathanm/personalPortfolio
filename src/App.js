@@ -11,6 +11,8 @@ import { StyleProvider } from "./Context/StyleContext";
 import "./App.css";
 import Experience from "./Components/Experience/Experience";
 import MoveToTop from "./Components/MoveToTopButton/MoveToTop";
+import Certifications from "./Components/Certifications/Certifications";
+import Projects from "./Components/Projects/Projects";
 
 const App = () => {
 	const [isDark, setIsDark] = useState(false);
@@ -116,6 +118,8 @@ const App = () => {
 					<Intro />
 					<Stack />
 					<Experience />
+					<Certifications />
+					<Projects />
 				</div>
 				<MoveToTop />
 			</StyleProvider>

@@ -20,8 +20,9 @@ const Experience = () => {
 	}, []);
 	return (
 		<Fade bottom duration={1000} distance="40px">
-			<div className="experience">
+			<div className="experience" id="experience">
 				<h3>My Experience</h3>
+				<hr />
 				<div
 					className="card"
 					style={{ backgroundColor: isDark ? "var(--darkBackground)" : "" }}

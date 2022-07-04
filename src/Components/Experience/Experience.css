@@ -1,5 +1,6 @@
 .experience {
-	margin-top: 3rem;
+	margin-top: 7rem;
+	padding: 1rem;
 }
 .experience_body {
 	margin-top: 1rem;
@@ -76,7 +77,7 @@ h5 {
 	width: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
 	.experience_content {
 		display: block;
 	}

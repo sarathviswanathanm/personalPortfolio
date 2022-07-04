@@ -7,13 +7,13 @@ import "./Navbar.css";
 import StyleContext from "../../Context/StyleContext";
 
 const pages = [
-	"Stacks",
-	"Experience",
-	"Certifications",
-	"Projects",
-	"Education",
-	"Gallery",
-	"Contact",
+	{ name: "Stacks", href: "#stacks" },
+	{ name: "Experience", href: "#experience" },
+	{ name: "Certifications", href: "#certifications" },
+	{ name: "Projects", href: "#projects" },
+	{ name: "Education", href: "#education" },
+	{ name: "Gallery", href: "#gallery" },
+	{ name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
 				<div className="container-fluid">
 					<a
 						className="navbar-brand"
-						href="/home"
+						href="#home"
 						style={{
 							display: "flex",
 							alignItems: "center",
@@ -76,14 +76,14 @@ const Navbar = () => {
 											isDark ? "lightColorText" : "darkColorText"
 										}`}
 										aria-current="page"
-										href="/home"
+										href={page.href}
 										style={{
 											fontFamily: "monospace",
 											fontSize: "1.2rem",
 											padding: "0px, 5px",
 										}}
 									>
-										{page}
+										{page.name}
 									</a>
 								</li>
 							))}

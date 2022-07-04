@@ -57,7 +57,7 @@ const Stack = () => {
 	];
 	return (
 		<Fade bottom duration={1000} distance="40px">
-			<div className="stack">
+			<div className="stack" id="stacks">
 				<div className="s_left" ref={s_left}></div>
 				<div
 					className={`s_right ${isDark ? "lightColorText" : "darkColorText"}`}
