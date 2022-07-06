@@ -54,8 +54,8 @@ const Experience = () => {
 											portal.
 										</li>
 										<li>
-											Became a point of contact person for certain project
-											deliverable workflow activities.
+											Became a point of contact for certain project deliverable
+											workflow activities.
 										</li>
 										<li>
 											Collaborated with the DevOps team to identify and fix

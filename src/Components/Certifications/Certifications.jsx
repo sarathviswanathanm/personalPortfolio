@@ -20,7 +20,7 @@ const certification = [
 		description: "Certified SAFe® 5 Practitioner (10/2021)",
 	},
 	{
-		name: "Clean Coding Practies",
+		name: "Clean Coding Practices",
 		image: cleanCoding,
 		description: "Agile Software Development: Clean Coding Practices (02/2021)",
 	},

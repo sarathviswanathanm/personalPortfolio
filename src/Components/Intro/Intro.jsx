@@ -36,7 +36,15 @@ const Intro = () => {
 					</div>
 
 					<div className="buttons">
-						<button className="button i-button">Contact Me</button>
+						<button
+							className="button i-button"
+							href="#contact"
+							onClick={() => {
+								window.scrollTo(0, 100000);
+							}}
+						>
+							Contact Me
+						</button>
 						<button
 							className="button i-button"
 							onClick={() => {
