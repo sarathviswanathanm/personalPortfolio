@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Avatar from "@mui/material/Avatar";
-import sarath from "../../img/sarath.jpg";
 import Headroom from "react-headroom";
+import sarath from "../../img/sarath.jpg";
 import "./Navbar.css";
 
 import StyleContext from "../../Context/StyleContext";

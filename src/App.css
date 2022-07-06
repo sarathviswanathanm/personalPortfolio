@@ -33,7 +33,7 @@
 }
 
 .App {
-	padding: 1rem 1.5rem;
+	padding-top: 1rem;
 	overflow: hidden;
 	color: var(--black);
 	width: auto;

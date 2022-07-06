@@ -1,6 +1,6 @@
 .certifications {
 	margin-top: 7rem;
-	padding: 1rem;
+	padding: 1rem 1.5rem;
 }
 .certificates {
 	display: flex;
@@ -13,6 +13,7 @@
 	width: 320px;
 	height: 250px;
 	border-radius: 30px;
+	background-color: transparent;
 	overflow: hidden;
 	position: relative;
 	display: flex;

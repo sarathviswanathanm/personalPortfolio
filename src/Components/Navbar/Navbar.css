@@ -1,3 +1,6 @@
+.navbar {
+	padding: 1rem;
+}
 .dark-menu {
 	background-color: var(--darkBackground) !important;
 	color: white !important;

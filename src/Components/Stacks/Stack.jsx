@@ -64,21 +64,23 @@ const Stack = () => {
 				>
 					<h3>My Ecosystem</h3>
 					<hr />
-					<ul className="icons">
-						{stacks.map((item) => {
-							return (
-								<li className="icon" key={item.skillName}>
-									<i className={`${item.fontAwesomeClassname}`}></i>
-									<p>{item.skillName}</p>
-								</li>
-							);
-						})}
-					</ul>
-					<ul className="stackDesc">
-						<li>Developed Web application using ReactJS and SCSS</li>
-						<li>Completed POC in NodeJS</li>
-						<li>Worked on SQL Database with .NET framework</li>
-					</ul>
+					<Fade left>
+						<ul className="icons">
+							{stacks.map((item) => {
+								return (
+									<li className="icon" key={item.skillName}>
+										<i className={`${item.fontAwesomeClassname}`}></i>
+										<p>{item.skillName}</p>
+									</li>
+								);
+							})}
+						</ul>
+						<ul className="stackDesc">
+							<li>Developed Web application using ReactJS and SCSS</li>
+							<li>Completed POC in NodeJS</li>
+							<li>Worked on SQL Database with .NET framework</li>
+						</ul>
+					</Fade>
 				</div>
 			</div>
 		</Fade>

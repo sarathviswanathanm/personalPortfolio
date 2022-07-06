@@ -1,6 +1,6 @@
 .experience {
 	margin-top: 7rem;
-	padding: 1rem;
+	padding: 1rem 1.5rem;
 }
 .experience_body {
 	margin-top: 1rem;
@@ -17,7 +17,7 @@ h3 {
 
 .card {
 	border: solid 5px transparent;
-	box-shadow: 0 0 5px var(--orangeCard);
+	box-shadow: 0 0 5px var(--orange);
 }
 h5 {
 	text-align: center;

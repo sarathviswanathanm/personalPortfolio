@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
-
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import me from "../../img/Sarath_intro.png";
+import github from "../../img/github.png";
+import linkedIn from "../../img/linkedin.png";
+import instagram from "../../img/instagram.png";
 import StyleContext from "../../Context/StyleContext";
 import Pulse from "react-reveal/Pulse";
 import Fade from "react-reveal/Fade";
 import resumePdf from "../../Sarath Viswanathan M.pdf";
-import sarath from "../../img/Sarath_png.png";
 
 import "./Intro.css";
 
@@ -25,13 +24,15 @@ const Intro = () => {
 							I am <span style={{ color: "var(--orange)" }}>Sarath</span>
 						</span>
 
-						<p>
-							Front end web developer building world-class web applications who
-							looks for metrics and beating former "best-yets". Proficient in an
-							assortment of technologies, including JavaScript, HTML, and CSS.
-							Certified SAFe 5 Practitioner with experience of having worked on
-							larger teams.
-						</p>
+						<Fade left cascade>
+							<p>
+								Front end web developer building world-class web applications
+								who looks for metrics and beating former "best-yets". Proficient
+								in an assortment of technologies, including JavaScript, HTML,
+								and CSS. Certified SAFe 5 Practitioner with experience of having
+								worked on larger teams.
+							</p>
+						</Fade>
 					</div>
 
 					<div className="buttons">
@@ -52,21 +53,21 @@ const Intro = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={Github} alt="" />
+							<img src={github} alt="" />
 						</a>
 						<a
 							href="https://www.linkedin.com/in/sarath-viswanathan-371517141/"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={LinkedIn} alt="" />
+							<img src={linkedIn} alt="" />
 						</a>
 						<a
 							href="https://www.instagram.com/sarath_mv/?hl=en"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={Instagram} alt="" />
+							<img src={instagram} alt="" />
 						</a>
 					</div>
 				</div>
@@ -75,7 +76,7 @@ const Intro = () => {
 					<Pulse>
 						<div className="myPhotoDiv">
 							<div className="photo">
-								<img src={sarath} alt="" className="me" />
+								<img src={me} alt="" className="me" />
 							</div>
 						</div>
 					</Pulse>

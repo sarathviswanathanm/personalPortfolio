@@ -1,6 +1,6 @@
 .intro {
 	margin-top: 3rem;
-	padding: 1rem;
+	padding: 1rem 1.5rem;
 	display: grid;
 	grid-template-columns: 55% 45%;
 	gap: 5%;
